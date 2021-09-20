@@ -1,4 +1,15 @@
 # dwmblocks
+```shell
+# install picom for pretty dress
+sudo pacman -S picom
+mkdir -p ~/.config/picom
+cp /etc/xdg/picom.conf ~/.config/picom/
+
+# install feh for image view and setting background
+sudo pacman -S feh
+```
+
+<++>
 
 Modular status bar for dwm written in c.
 

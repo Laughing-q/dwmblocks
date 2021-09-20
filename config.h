@@ -15,7 +15,7 @@ static const Block blocks[] = {
 	/* {"",	"sb-price btc Bitcoin 💰",				9000,	21}, */
 	{"",	"sb-torrent",	20,	7},
 	/* {"",	"sb-memory",	10,	14}, */
-	/* {"",	"sb-cpu",		10,	18}, */
+	{"",	"sb-cpu",		10,	18},
 	/* {"",	"sb-moonphase",	18000,	17}, */
 	{"",	"sb-forecast",	18000,	5},
 	{"",	"sb-mailbox",	180,	12},
@@ -25,6 +25,8 @@ static const Block blocks[] = {
 	{"",	"sb-clock",	60,	1},
 	{"",	"sb-internet",	5,	4},
 	{"",	"sb-help-icon",	0,	15},
+  {"",  "picom -b", 0, 0},
+  {"",  "feh --recursive --randomize --bg-fill ~/Downloads/pic1.jpeg", 0, 0},
 };
 
 //Sets delimiter between status commands. NULL character ('\0') means no delimiter.
