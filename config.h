@@ -27,7 +27,7 @@ static const Block blocks[] = {
 	{"",	"sb-help-icon",	0,	15},
   {"",  "picom -b", 0, 0},
   {"",  "feh --recursive --randomize --bg-fill ~/Downloads/pic1.jpeg", 0, 0},
-  /* {"",  "fcitx5 &", 0, 0}, */
+  /* {"",  "fcitx5 &", 0, 0}, please write "fcitx5 &" to ~/.xinitrc */ 
 };
 
 //Sets delimiter between status commands. NULL character ('\0') means no delimiter.
