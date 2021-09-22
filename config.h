@@ -14,7 +14,7 @@ static const Block blocks[] = {
 	/* {"",	"sb-price eth Ethereum 🍸",	9000,	23}, */
 	/* {"",	"sb-price btc Bitcoin 💰",				9000,	21}, */
 	/* {"",	"sb-torrent",	20,	7}, */
-	/* {"",	"sb-memory",	10,	14}, */
+	{"",	"sb-memory",	10,	14},
 	{"",	"sb-cpu",		10,	18},
 	/* {"",	"sb-moonphase",	18000,	17}, */
 	{"",	"sb-forecast",	18000,	5},
@@ -25,8 +25,9 @@ static const Block blocks[] = {
 	{"",	"sb-clock",	60,	1},
 	{"",	"sb-internet",	5,	4},
 	{"",	"sb-help-icon",	0,	15},
-  {"",  "picom -b", 0, 0},
-  {"",  "feh --recursive --randomize --bg-fill ~/Downloads/pic1.jpeg", 0, 0},
+  {"",  "picom -b", 0, 20},
+  {"",  "feh --recursive --randomize --bg-fill /home/laughing/Pictures/12.jpg", 0, 0},
+  /* {"",  "wal -i /home/laughing/Pictures/12.jpg", 0, 21}, */
   /* {"",  "fcitx5 &", 0, 0}, please write "fcitx5 &" to ~/.xinitrc */ 
 };
 
