@@ -9,7 +9,7 @@ cp /etc/xdg/picom.conf ~/.config/picom/
 sudo pacman -S feh
 ```
 
-<++>
+---
 
 Modular status bar for dwm written in c.
 
