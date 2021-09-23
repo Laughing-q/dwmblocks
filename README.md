@@ -7,6 +7,9 @@ cp /etc/xdg/picom.conf ~/.config/picom/
 
 # install feh for image view and setting background
 sudo pacman -S feh
+
+# install pamixer for volume
+yay -S pamixer
 ```
 
 ---
