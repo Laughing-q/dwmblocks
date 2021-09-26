@@ -1,5 +1,7 @@
 # dwmblocks
 ```shell
+# install colorful icon
+yay -S ttf-joypixels
 # install picom for pretty dress
 sudo pacman -S picom
 mkdir -p ~/.config/picom
