@@ -4,9 +4,9 @@
 
 case $BLOCK_BUTTON in
 	1) setsid -f "$TERMINAL" -e pulsemixer ;;
-	2) amixer set Master off ;;
-	4) amixer set Master 3dB+ ;;
-	5) amixer set Master 3dB-;;
+	2) amixer set Master toggle ;;
+	4) amixer -qM set Master 5%+ umute ;;
+	5) amixer -qM set Master 5%- umute ;;
 	3) notify-send "📢 Volume module" "\- Shows volume 🔊, 🔇 if muted.
 - Middle click to mute.
 - Scroll to change." ;;
