@@ -1,4 +1,21 @@
 # dwmblocks
+Modular status bar for dwm written in c.
+
+# The scripts I'm using
+- [X] sb-memory
+- [X] sb-cpu
+  - ls_sensors
+- [X] sb-forecast
+- [X] sb-nettraf
+- [X] sb-volume
+  - pamixer
+- [X] sb-battery
+- [X] sb-clock
+- [X] sb-internet
+- [X] sb-help-icon
+  - okular
+  - groff
+
 ```shell
 # install colorful icon
 yay -S ttf-joypixels
@@ -26,7 +43,6 @@ The scripts can not find my `$TERMINAL` too, so I set it to `st` for now.
 
 ---
 
-Modular status bar for dwm written in c.
 
 # Modifying blocks
 
