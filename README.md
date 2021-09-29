@@ -1,4 +1,21 @@
 # dwmblocks
+Modular status bar for dwm written in c.
+
+# The scripts I'm using
+- [X] sb-memory
+- [X] sb-cpu
+  - ls_sensors
+- [X] sb-forecast
+- [X] sb-nettraf
+- [X] sb-volume
+  - pamixer
+- [X] sb-battery
+- [X] sb-clock
+- [X] sb-internet
+- [X] sb-help-icon
+  - okular
+  - groff
+
 ```shell
 # install colorful icon
 yay -S ttf-joypixels
@@ -12,11 +29,14 @@ sudo pacman -S feh
 
 # install pamixer for volume
 yay -S pamixer
+
+# for notify-send
+sudo pacman -S dunst
+echo "dunst &" >> ~/.xinitrc
 ```
 
 ---
 
-Modular status bar for dwm written in c.
 
 # Modifying blocks
 
