@@ -12,6 +12,10 @@ sudo pacman -S feh
 
 # install pamixer for volume
 yay -S pamixer
+
+# for notify-send
+sudo pacman -S dunst
+echo "dunst &" >> ~/.xinitrc
 ```
 
 ---
