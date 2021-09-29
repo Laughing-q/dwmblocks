@@ -3,15 +3,18 @@
 # install colorful icon
 yay -S ttf-joypixels
 # install picom for pretty dress
-sudo pacman -S picom
+sudo apt-get install picom
 mkdir -p ~/.config/picom
 cp /etc/xdg/picom.conf ~/.config/picom/
 
 # install feh for image view and setting background
-sudo pacman -S feh
+sudo apt-get install feh
 
-# install pamixer for volume
-yay -S pamixer
+# install amixer for volume
+sudo apt-get install amixer
+
+# for notify-send
+sudo apt-get install dunst
 ```
 
 ---
