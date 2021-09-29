@@ -3,7 +3,8 @@
 # Prints the current volume or 🔇 if muted.
 
 case $BLOCK_BUTTON in
-	1) setsid -f "$TERMINAL" -e pulsemixer ;;
+	# 1) setsid -f "$TERMINAL" -e pulsemixer ;;
+	1) st -e pulsemixer ;;
 	2) amixer set Master toggle ;;
 	4) amixer -qM set Master 5%+ umute ;;
 	5) amixer -qM set Master 5%- umute ;;
