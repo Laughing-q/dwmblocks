@@ -5,6 +5,7 @@ Modular status bar for dwm written in c.
 - [X] sb-memory
 - [X] sb-cpu
   - ls_sensors
+- [X] sb-cpubars
 - [X] sb-forecast
 - [X] sb-nettraf
 - [X] sb-volume
