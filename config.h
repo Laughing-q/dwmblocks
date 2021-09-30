@@ -25,9 +25,9 @@ static const Block blocks[] = {
 	{"",	"sb-clock",	60,	1},
 	{"",	"sb-internet",	5,	4},
 	{"",	"sb-help-icon",	0,	15},
-  {"",  "picom -b", 0, 20},
-  {"",  "feh --recursive --randomize --bg-fill /home/laughing/Pictures/12.jpg", 0, 0},
-  /* {"",  "wal -i /home/laughing/Pictures/12.jpg", 0, 21}, */
+  /* {"",  "picom -b", 0, 20}, */
+  /* {"",  "feh --recursive --randomize --bg-fill /home/laughing/Pictures/12.jpg", 0, 0}, */
+  /* {"",  "wal -i /home/laughing/Pictures/DT/0026.jpg > /dev/null", 0, 21}, */
   /* {"",  "fcitx5 &", 0, 0}, please write "fcitx5 &" to ~/.xinitrc */ 
 };
 

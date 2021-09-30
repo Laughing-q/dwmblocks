@@ -34,6 +34,12 @@ yay -S pamixer
 sudo pacman -S dunst
 echo "dunst &" >> ~/.xinitrc
 ```
+The command such as `ranger` or `bpytop` running in the background can not find the variable added in my `.zshrc` configuration file.
+
+So I set some environment variables, such as the `$BROWSER`, and `$PATH` to `/etc/profile` for now until I figure it out.
+Putting the `ranger` or `bpytop` in `/usr/bin` also works.
+
+The scripts can not find my `$TERMINAL` too, so I set it to `st` for now.
 
 ---
 
