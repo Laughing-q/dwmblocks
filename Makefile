@@ -3,6 +3,8 @@
 PREFIX = /usr/local
 CC = gcc
 
+SCRIPTS := $(wildcard ./scripts/*)
+
 dwmblocks: dwmblocks.o
 	$(CC) dwmblocks.o -lX11 -o dwmblocks
 dwmblocks.o: dwmblocks.c config.h
@@ -13,6 +15,7 @@ install: dwmblocks
 	mkdir -p $(DESTDIR)$(PREFIX)/bin
 	cp -f dwmblocks $(DESTDIR)$(PREFIX)/bin
 	chmod 755 $(DESTDIR)$(PREFIX)/bin/dwmblocks
+	install -Dm 755 $(SCRIPTS) -t $(DESTDIR)$(PREFIX)/bin/
 uninstall:
 	rm -f $(DESTDIR)$(PREFIX)/bin/dwmblocks
 
