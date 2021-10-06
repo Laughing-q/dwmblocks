@@ -34,6 +34,9 @@ yay -S pamixer
 # for notify-send
 sudo pacman -S dunst
 echo "dunst &" >> ~/.xinitrc
+
+# for brightness, cause xbacklight not work for me
+yay -S light-git
 ```
 The command such as `ranger` or `bpytop` running in the background can not find the variable added in my `.zshrc` configuration file.
 
