@@ -38,6 +38,9 @@ echo "dunst &" >> ~/.xinitrc
 
 # for brightness, cause xbacklight not work for me
 yay -S light-git
+
+# for tasks running background
+yay -S task-spooler
 ```
 The command such as `ranger` or `bpytop` running in the background can not find the variable added in my `.zshrc` configuration file.
 
