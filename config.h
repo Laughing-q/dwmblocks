@@ -29,6 +29,7 @@ static const Block blocks[] = {
   {"",  "picom -b &", 0, 20},
   /* {"",  "feh --recursive --randomize --bg-fill /home/laughing/Pictures/12.jpg", 0, 0}, */
   /* {"",  "wal -i /home/laughing/Pictures/DT/0026.jpg > /dev/null &", 0, 21}, */
+  {"",  "wp-autochange ~/Pictures/wallpapers/ghibili 2m &", 0, 22},
   {"",  "wal -i /home/laughing/Pictures/DT/0174.jpg > /dev/null &", 0, 21},
   /* {"",  "fcitx5 &", 0, 0}, please write "fcitx5 &" to ~/.xinitrc */ 
   /* {"",  "dunst &", 0, 22}, */
