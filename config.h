@@ -30,7 +30,7 @@ static const Block blocks[] = {
   /* {"",  "feh --recursive --randomize --bg-fill /home/laughing/Pictures/12.jpg", 0, 0}, */
   /* {"",  "wal -i /home/laughing/Pictures/DT/0026.jpg > /dev/null &", 0, 21}, */
   {"",  "wal -i /home/laughing/Pictures/DT/0174.jpg > /dev/null &", 0, 21},
-  {"",  "wp-change ~/Pictures/wallpapers/ghibili", 120, 22},
+  {"",  "wp-change ~/Pictures/", 120, 22},
   /* {"",  "fcitx5 &", 0, 0}, please write "fcitx5 &" to ~/.xinitrc */ 
   /* {"",  "dunst &", 0, 22}, */
 };
