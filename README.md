@@ -20,7 +20,7 @@ Modular status bar for dwm written in c.
 ```shell
 # install colorful icon
 yay -S ttf-joypixels
-sudo pacman -S noto-fonts-emoji
+# sudo pacman -S noto-fonts-emoji
 # install picom for pretty dress
 sudo pacman -S picom
 mkdir -p ~/.config/picom
